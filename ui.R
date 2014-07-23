@@ -10,7 +10,7 @@ shinyUI(pageWithSidebar(
     helpText("Data from R Programming Assn 3")
   ),
   mainPanel(
-    h3('Hospital with most favorable outcome'),
+    h3('Hospital with lowest 30 day post treatment mortality'),
     textOutput('text1')
   )
 ) )
