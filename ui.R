@@ -7,7 +7,7 @@ shinyUI(pageWithSidebar(
     helpText("Select your U.S. state and Outcome (medical treatment)"),
     selectInput("selectState", "State", choices = usState ),
     selectInput("selectOutcome", "Outcome (Treatment Type)", choices = outcomes ),
-    helpText("Data from R Programming Assn 3")
+    helpText("Hospital Compare: http://hospitalcompare.hhs.gov/")
   ),
   mainPanel(
     h3('Hospital with lowest 30 day post treatment mortality'),
